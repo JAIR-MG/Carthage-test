@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE1B134124101EE2005FDBCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B134024101EE2005FDBCA /* AppDelegate.swift */; };
+		DE1B134324101EE2005FDBCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B134224101EE2005FDBCA /* SceneDelegate.swift */; };
+		DE1B134524101EE2005FDBCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B134424101EE2005FDBCA /* ViewController.swift */; };
+		DE1B134824101EE2005FDBCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1B134624101EE2005FDBCA /* Main.storyboard */; };
+		DE1B134B24101EE2005FDBCA /* CarthageTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE1B134924101EE2005FDBCA /* CarthageTest.xcdatamodeld */; };
+		DE1B134D24101EE8005FDBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1B134C24101EE8005FDBCA /* Assets.xcassets */; };
+		DE1B135024101EE8005FDBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1B134E24101EE8005FDBCA /* LaunchScreen.storyboard */; };
+		DE1B135B24101EE8005FDBCA /* CarthageTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B135A24101EE8005FDBCA /* CarthageTestTests.swift */; };
+		DE1B136624101EE8005FDBCA /* CarthageTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B136524101EE8005FDBCA /* CarthageTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE1B135724101EE8005FDBCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1B133524101EE2005FDBCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1B133C24101EE2005FDBCA;
+			remoteInfo = CarthageTest;
+		};
+		DE1B136224101EE8005FDBCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1B133524101EE2005FDBCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1B133C24101EE2005FDBCA;
+			remoteInfo = CarthageTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE1B133D24101EE2005FDBCA /* CarthageTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1B134024101EE2005FDBCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE1B134224101EE2005FDBCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE1B134424101EE2005FDBCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE1B134724101EE2005FDBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE1B134A24101EE2005FDBCA /* CarthageTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarthageTest.xcdatamodel; sourceTree = "<group>"; };
+		DE1B134C24101EE8005FDBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE1B134F24101EE8005FDBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE1B135124101EE8005FDBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1B135624101EE8005FDBCA /* CarthageTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1B135A24101EE8005FDBCA /* CarthageTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageTestTests.swift; sourceTree = "<group>"; };
+		DE1B135C24101EE8005FDBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1B136124101EE8005FDBCA /* CarthageTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1B136524101EE8005FDBCA /* CarthageTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageTestUITests.swift; sourceTree = "<group>"; };
+		DE1B136724101EE8005FDBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE1B133A24101EE2005FDBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1B135324101EE8005FDBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1B135E24101EE8005FDBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE1B133424101EE2005FDBCA = {
+			isa = PBXGroup;
+			children = (
+				DE1B133F24101EE2005FDBCA /* CarthageTest */,
+				DE1B135924101EE8005FDBCA /* CarthageTestTests */,
+				DE1B136424101EE8005FDBCA /* CarthageTestUITests */,
+				DE1B133E24101EE2005FDBCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE1B133E24101EE2005FDBCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B133D24101EE2005FDBCA /* CarthageTest.app */,
+				DE1B135624101EE8005FDBCA /* CarthageTestTests.xctest */,
+				DE1B136124101EE8005FDBCA /* CarthageTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE1B133F24101EE2005FDBCA /* CarthageTest */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B134024101EE2005FDBCA /* AppDelegate.swift */,
+				DE1B134224101EE2005FDBCA /* SceneDelegate.swift */,
+				DE1B134424101EE2005FDBCA /* ViewController.swift */,
+				DE1B134624101EE2005FDBCA /* Main.storyboard */,
+				DE1B134C24101EE8005FDBCA /* Assets.xcassets */,
+				DE1B134E24101EE8005FDBCA /* LaunchScreen.storyboard */,
+				DE1B135124101EE8005FDBCA /* Info.plist */,
+				DE1B134924101EE2005FDBCA /* CarthageTest.xcdatamodeld */,
+			);
+			path = CarthageTest;
+			sourceTree = "<group>";
+		};
+		DE1B135924101EE8005FDBCA /* CarthageTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B135A24101EE8005FDBCA /* CarthageTestTests.swift */,
+				DE1B135C24101EE8005FDBCA /* Info.plist */,
+			);
+			path = CarthageTestTests;
+			sourceTree = "<group>";
+		};
+		DE1B136424101EE8005FDBCA /* CarthageTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B136524101EE8005FDBCA /* CarthageTestUITests.swift */,
+				DE1B136724101EE8005FDBCA /* Info.plist */,
+			);
+			path = CarthageTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE1B133C24101EE2005FDBCA /* CarthageTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1B136A24101EE8005FDBCA /* Build configuration list for PBXNativeTarget "CarthageTest" */;
+			buildPhases = (
+				DE1B133924101EE2005FDBCA /* Sources */,
+				DE1B133A24101EE2005FDBCA /* Frameworks */,
+				DE1B133B24101EE2005FDBCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarthageTest;
+			productName = CarthageTest;
+			productReference = DE1B133D24101EE2005FDBCA /* CarthageTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE1B135524101EE8005FDBCA /* CarthageTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1B136D24101EE8005FDBCA /* Build configuration list for PBXNativeTarget "CarthageTestTests" */;
+			buildPhases = (
+				DE1B135224101EE8005FDBCA /* Sources */,
+				DE1B135324101EE8005FDBCA /* Frameworks */,
+				DE1B135424101EE8005FDBCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1B135824101EE8005FDBCA /* PBXTargetDependency */,
+			);
+			name = CarthageTestTests;
+			productName = CarthageTestTests;
+			productReference = DE1B135624101EE8005FDBCA /* CarthageTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE1B136024101EE8005FDBCA /* CarthageTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1B137024101EE8005FDBCA /* Build configuration list for PBXNativeTarget "CarthageTestUITests" */;
+			buildPhases = (
+				DE1B135D24101EE8005FDBCA /* Sources */,
+				DE1B135E24101EE8005FDBCA /* Frameworks */,
+				DE1B135F24101EE8005FDBCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1B136324101EE8005FDBCA /* PBXTargetDependency */,
+			);
+			name = CarthageTestUITests;
+			productName = CarthageTestUITests;
+			productReference = DE1B136124101EE8005FDBCA /* CarthageTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE1B133524101EE2005FDBCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Jair Moreno Gaspar";
+				TargetAttributes = {
+					DE1B133C24101EE2005FDBCA = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					DE1B135524101EE8005FDBCA = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = DE1B133C24101EE2005FDBCA;
+					};
+					DE1B136024101EE8005FDBCA = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = DE1B133C24101EE2005FDBCA;
+					};
+				};
+			};
+			buildConfigurationList = DE1B133824101EE2005FDBCA /* Build configuration list for PBXProject "CarthageTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE1B133424101EE2005FDBCA;
+			productRefGroup = DE1B133E24101EE2005FDBCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE1B133C24101EE2005FDBCA /* CarthageTest */,
+				DE1B135524101EE8005FDBCA /* CarthageTestTests */,
+				DE1B136024101EE8005FDBCA /* CarthageTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE1B133B24101EE2005FDBCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1B135024101EE8005FDBCA /* LaunchScreen.storyboard in Resources */,
+				DE1B134D24101EE8005FDBCA /* Assets.xcassets in Resources */,
+				DE1B134824101EE2005FDBCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1B135424101EE8005FDBCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1B135F24101EE8005FDBCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE1B133924101EE2005FDBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1B134B24101EE2005FDBCA /* CarthageTest.xcdatamodeld in Sources */,
+				DE1B134524101EE2005FDBCA /* ViewController.swift in Sources */,
+				DE1B134124101EE2005FDBCA /* AppDelegate.swift in Sources */,
+				DE1B134324101EE2005FDBCA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1B135224101EE8005FDBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1B135B24101EE8005FDBCA /* CarthageTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1B135D24101EE8005FDBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1B136624101EE8005FDBCA /* CarthageTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE1B135824101EE8005FDBCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1B133C24101EE2005FDBCA /* CarthageTest */;
+			targetProxy = DE1B135724101EE8005FDBCA /* PBXContainerItemProxy */;
+		};
+		DE1B136324101EE8005FDBCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1B133C24101EE2005FDBCA /* CarthageTest */;
+			targetProxy = DE1B136224101EE8005FDBCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE1B134624101EE2005FDBCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1B134724101EE2005FDBCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE1B134E24101EE8005FDBCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1B134F24101EE8005FDBCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE1B136824101EE8005FDBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE1B136924101EE8005FDBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE1B136B24101EE8005FDBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarthageTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..CarthageTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE1B136C24101EE8005FDBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarthageTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..CarthageTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE1B136E24101EE8005FDBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarthageTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..CarthageTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarthageTest.app/CarthageTest";
+			};
+			name = Debug;
+		};
+		DE1B136F24101EE8005FDBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarthageTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..CarthageTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarthageTest.app/CarthageTest";
+			};
+			name = Release;
+		};
+		DE1B137124101EE8005FDBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarthageTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..CarthageTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarthageTest;
+			};
+			name = Debug;
+		};
+		DE1B137224101EE8005FDBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarthageTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..CarthageTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarthageTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE1B133824101EE2005FDBCA /* Build configuration list for PBXProject "CarthageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1B136824101EE8005FDBCA /* Debug */,
+				DE1B136924101EE8005FDBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1B136A24101EE8005FDBCA /* Build configuration list for PBXNativeTarget "CarthageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1B136B24101EE8005FDBCA /* Debug */,
+				DE1B136C24101EE8005FDBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1B136D24101EE8005FDBCA /* Build configuration list for PBXNativeTarget "CarthageTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1B136E24101EE8005FDBCA /* Debug */,
+				DE1B136F24101EE8005FDBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1B137024101EE8005FDBCA /* Build configuration list for PBXNativeTarget "CarthageTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1B137124101EE8005FDBCA /* Debug */,
+				DE1B137224101EE8005FDBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE1B134924101EE2005FDBCA /* CarthageTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DE1B134A24101EE2005FDBCA /* CarthageTest.xcdatamodel */,
+			);
+			currentVersion = DE1B134A24101EE2005FDBCA /* CarthageTest.xcdatamodel */;
+			path = CarthageTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DE1B133524101EE2005FDBCA /* Project object */;
+}
